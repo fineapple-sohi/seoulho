@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* reset */
+* {box-sizing: border-box; word-break: keep-all;}
+body,  h1, h2, h3, h4, h5, p, ul, address, th, td, button {margin: 0; padding: 0;}
+body {font-size: 18px; font-family: 'NanumBarunG', 'Noto Sans KR', 'NanumGothic', '나눔고딕', sans-serif; font-weight: 400; color: #2c2b2b; line-height: 1;}
+h1, h2, h3, h4, h5 {font-weight: inherit; font-size: inherit;}
+ul {list-style: none;}
+a:hover, a:link, a:visited, a:active {text-decoration: none; color: inherit;}
+input[type="text"] {border: 1px solid #aaa;}
+input, button{font-family: inherit;font-size: inherit;color: inherit;}
+button {cursor: pointer; background: none; border: none;}
+table {border-collapse: collapse; border-spacing: 0; font-weight: inherit;}
+address {font-style: normal;}
+img {vertical-align: top; border: none; max-width: 100%; height: auto;}
+header, nav, section, article, footer {display: block;}
+
+/* 공통클래스 */
+.blind {font-size: 0; line-height: 0; width: 1px; height: 1px; line-height: 1px; text-align: -9999px; overflow: hidden; position: absolute; top: 0; left: -9999px;}
+.clear:after {content: ""; display: block; clear: both;}
+.p_r {position: relative;}
+.p_a {position: absolute;}
+.df {display: flex;}
+.f_l {float: left;}
+.f_r {float: right;}
+.tc {text-align: center;}
+
+.container{width: 100%; max-width: 1400px; padding: 0 30px; margin: 0 auto; position: relative; box-sizing: border-box; min-width:1200px;}
+.area {position: relative; width: 60%; min-width: 1092px; max-width: 1920px; height: 100%; padding: 0 30px; margin: 0 auto;}
+.h_area {width: 100%; padding: 0 90px;}
+
+.f_chosun {font-family: 'Chosunilbo_myungjo';}
+.fc_w {color: #fff;}
+.fc_b {color: #71d0e1;}
+.fc_br {color: #d59c67;}
+
+
+/* skip */
+#skip a {position: absolute; top: 0; left: -9999px; z-index: 100}
+#skip a:focus {display: block; top: 0; left: 0;  width: 100%; padding: 10px 0; background: #fff; color: #000; font-weight: 300; text-align: center}

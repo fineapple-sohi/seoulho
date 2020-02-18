@@ -1,0 +1,284 @@
+.waypoint .anim {
+  opacity: 0;
+}
+
+.waypoint .anim.fade-in-left {
+  -webkit-transform: translateX(-120px);
+  -moz-transform: translateX(-120px);
+  -ms-transform: translateX(-120px);
+  -o-transform: translateX(-120px);
+  transform: translateX(-120px);
+}
+
+.waypoint .anim.fade-in-right {
+  -webkit-transform: translateX(120px);
+  -moz-transform: translateX(120px);
+  -ms-transform: translateX(120px);
+  -o-transform: translateX(120px);
+  transform: translateX(120px);
+}
+
+.waypoint .anim.fade-in-up {
+  -webkit-transform: translateY(120px);
+  -moz-transform: translateY(120px);
+  -ms-transform: translateY(120px);
+  -o-transform: translateY(120px);
+  transform: translateY(120px);
+}
+
+.waypoint .anim.fade-in-up-short {
+  -webkit-transform: translateY(60px);
+  -moz-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  -o-transform: translateY(60px);
+  transform: translateY(60px);
+}
+
+.waypoint .anim.fade-in-scale-up {
+  -webkit-transform: translate(0, 0) scale(1, 0);
+  -moz-transform: translate(0, 0) scale(1, 0);
+  -ms-transform: translate(0, 0) scale(1, 0);
+  -o-transform: translate(0, 0) scale(1, 0);
+  transform: translate(0, 0) scale(1, 0);
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.waypoint .anim.slide-in-from-right {
+  opacity: 1;
+  -webkit-transform: translate(100%, 0) scale(1, 1);
+  -moz-transform: translate(100%, 0) scale(1, 1);
+  -ms-transform: translate(100%, 0) scale(1, 1);
+  -o-transform: translate(100%, 0) scale(1, 1);
+  transform: translate(100%, 0) scale(1, 1);
+}
+
+.waypoint .anim.bg {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  opacity: 1;
+  width: 0;
+  overflow: hidden;
+}
+
+.waypoint .anim.bg.align-left {
+  left: 0;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.waypoint.on .anim {
+  -webkit-transition: -webkit-transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1), opacity 800ms ease-out;
+  -moz-transition: -moz-transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1), opacity 800ms ease-out;
+  -ms-transition: -ms-transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1), opacity 800ms ease-out;
+  -o-transition: -o-transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1), opacity 800ms ease-out;
+  transition: transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1), opacity 800ms ease-out;
+  opacity: 1 !important;
+  -webkit-transform: translate(0, 0) scale(1, 1) !important;
+  -moz-transform: translate(0, 0) scale(1, 1) !important;
+  -ms-transform: translate(0, 0) scale(1, 1) !important;
+  -o-transform: translate(0, 0) scale(1, 1) !important;
+  transform: translate(0, 0) scale(1, 1) !important;
+}
+
+.waypoint.on .anim.slide-in-from-right {
+  -webkit-transition-duration: 1200ms, 1200ms;
+  -moz-transition-duration: 1200ms, 1200ms;
+  -ms-transition-duration: 1200ms, 1200ms;
+  -o-transition-duration: 1200ms, 1200ms;
+  transition-duration: 1200ms, 1200ms;
+}
+
+.waypoint.on .anim.delay-100 {
+  -webkit-transition-delay: 100ms !important;
+  -moz-transition-delay: 100ms !important;
+  -ms-transition-delay: 100ms !important;
+  -o-transition-delay: 100ms !important;
+  transition-delay: 100ms !important;
+}
+
+.waypoint.on .anim.delay-200 {
+  -webkit-transition-delay: 200ms !important;
+  -moz-transition-delay: 200ms !important;
+  -ms-transition-delay: 200ms !important;
+  -o-transition-delay: 200ms !important;
+  transition-delay: 200ms !important;
+}
+
+.waypoint.on .anim.delay-300 {
+  -webkit-transition-delay: 300ms !important;
+  -moz-transition-delay: 300ms !important;
+  -ms-transition-delay: 300ms !important;
+  -o-transition-delay: 300ms !important;
+  transition-delay: 300ms !important;
+}
+
+.waypoint.on .anim.delay-400 {
+  -webkit-transition-delay: 400ms !important;
+  -moz-transition-delay: 400ms !important;
+  -ms-transition-delay: 400ms !important;
+  -o-transition-delay: 400ms !important;
+  transition-delay: 400ms !important;
+}
+
+.waypoint.on .anim.delay-500 {
+  -webkit-transition-delay: 500ms !important;
+  -moz-transition-delay: 500ms !important;
+  -ms-transition-delay: 500ms !important;
+  -o-transition-delay: 500ms !important;
+  transition-delay: 500ms !important;
+}
+
+.waypoint.on .anim.delay-600 {
+  -webkit-transition-delay: 600ms !important;
+  -moz-transition-delay: 600ms !important;
+  -ms-transition-delay: 600ms !important;
+  -o-transition-delay: 600ms !important;
+  transition-delay: 600ms !important;
+}
+
+.waypoint.on .anim.delay-700 {
+  -webkit-transition-delay: 700ms !important;
+  -moz-transition-delay: 700ms !important;
+  -ms-transition-delay: 700ms !important;
+  -o-transition-delay: 700ms !important;
+  transition-delay: 700ms !important;
+}
+
+.waypoint.on .anim.delay-800 {
+  -webkit-transition-delay: 800ms !important;
+  -moz-transition-delay: 800ms !important;
+  -ms-transition-delay: 800ms !important;
+  -o-transition-delay: 800ms !important;
+  transition-delay: 800ms !important;
+}
+
+.waypoint.on .anim.delay-900 {
+  -webkit-transition-delay: 900ms !important;
+  -moz-transition-delay: 900ms !important;
+  -ms-transition-delay: 900ms !important;
+  -o-transition-delay: 900ms !important;
+  transition-delay: 900ms !important;
+}
+
+.waypoint.on .anim.delay-1000 {
+  -webkit-transition-delay: 1000ms !important;
+  -moz-transition-delay: 1000ms !important;
+  -ms-transition-delay: 1000ms !important;
+  -o-transition-delay: 1000ms !important;
+  transition-delay: 1000ms !important;
+}
+
+.waypoint.on .anim.delay-1100 {
+  -webkit-transition-delay: 1100ms !important;
+  -moz-transition-delay: 1100ms !important;
+  -ms-transition-delay: 1100ms !important;
+  -o-transition-delay: 1100ms !important;
+  transition-delay: 1100ms !important;
+}
+
+.waypoint.on .anim.delay-1200 {
+  -webkit-transition-delay: 1200ms !important;
+  -moz-transition-delay: 1200ms !important;
+  -ms-transition-delay: 1200ms !important;
+  -o-transition-delay: 1200ms !important;
+  transition-delay: 1200ms !important;
+}
+
+.waypoint.on .anim.delay-1300 {
+  -webkit-transition-delay: 1300ms !important;
+  -moz-transition-delay: 1300ms !important;
+  -ms-transition-delay: 1300ms !important;
+  -o-transition-delay: 1300ms !important;
+  transition-delay: 1300ms !important;
+}
+
+.waypoint.on .anim.delay-1400 {
+  -webkit-transition-delay: 1400ms !important;
+  -moz-transition-delay: 1400ms !important;
+  -ms-transition-delay: 1400ms !important;
+  -o-transition-delay: 1400ms !important;
+  transition-delay: 1400ms !important;
+}
+
+.waypoint.on .anim.delay-1500 {
+  -webkit-transition-delay: 1500ms !important;
+  -moz-transition-delay: 1500ms !important;
+  -ms-transition-delay: 1500ms !important;
+  -o-transition-delay: 1500ms !important;
+  transition-delay: 1500ms !important;
+}
+
+.waypoint.on .anim.delay-1600 {
+  -webkit-transition-delay: 1600ms !important;
+  -moz-transition-delay: 1600ms !important;
+  -ms-transition-delay: 1600ms !important;
+  -o-transition-delay: 1600ms !important;
+  transition-delay: 1600ms !important;
+}
+
+.waypoint.on .anim.delay-1700 {
+  -webkit-transition-delay: 1700ms !important;
+  -moz-transition-delay: 1700ms !important;
+  -ms-transition-delay: 1700ms !important;
+  -o-transition-delay: 1700ms !important;
+  transition-delay: 1700ms !important;
+}
+
+.waypoint.on .anim.delay-1800 {
+  -webkit-transition-delay: 1800ms !important;
+  -moz-transition-delay: 1800ms !important;
+  -ms-transition-delay: 1800ms !important;
+  -o-transition-delay: 1800ms !important;
+  transition-delay: 1800ms !important;
+}
+
+.waypoint.on .anim.delay-1900 {
+  -webkit-transition-delay: 1900ms !important;
+  -moz-transition-delay: 1900ms !important;
+  -ms-transition-delay: 1900ms !important;
+  -o-transition-delay: 1900ms !important;
+  transition-delay: 1900ms !important;
+}
+
+.waypoint.on .anim.delay-2000 {
+  -webkit-transition-delay: 2000ms !important;
+  -moz-transition-delay: 2000ms !important;
+  -ms-transition-delay: 2000ms !important;
+  -o-transition-delay: 2000ms !important;
+  transition-delay: 2000ms !important;
+}
+
+.waypoint.on .anim.bg {
+  -webkit-transition: -webkit-transform 1600ms cubic-bezier(0.215, 0.61, 0.355, 1), width 1600ms cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: -moz-transform 1600ms cubic-bezier(0.215, 0.61, 0.355, 1), width 1600ms cubic-bezier(0.23, 1, 0.32, 1);
+  -ms-transition: -ms-transform 1600ms cubic-bezier(0.215, 0.61, 0.355, 1), width 1600ms cubic-bezier(0.23, 1, 0.32, 1);
+  -o-transition: -o-transform 1600ms cubic-bezier(0.215, 0.61, 0.355, 1), width 1600ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 1600ms cubic-bezier(0.215, 0.61, 0.355, 1), width 1600ms cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 1 !important;
+  -webkit-transform: translateX(-50%) !important;
+  -moz-transform: translateX(-50%) !important;
+  -ms-transform: translateX(-50%) !important;
+  -o-transform: translateX(-50%) !important;
+  transform: translateX(-50%) !important;
+  width: 100%;
+}
+
+.waypoint.on .anim.bg.align-left {
+  -webkit-transform: translateX(0) !important;
+  -moz-transform: translateX(0) !important;
+  -ms-transform: translateX(0) !important;
+  -o-transform: translateX(0) !important;
+  transform: translateX(0) !important;
+}

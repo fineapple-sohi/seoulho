@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: NanumBarunG;
+    font-weight: 100;
+    src: url("../font/NanumBarunGothicUltraLight.eot");
+    src: local("※"),
+        url("../font/NanumBarunGothicUltraLight.woff") format("woff"),
+        url("../font/NanumBarunGothicUltraLight.ttf") format("truetype");
+}
+@font-face {
+    font-family: NanumBarunG;
+    font-weight: 300;
+    src: url("../font/NanumBarunGothicLight.eot");
+    src: local("※"),
+        url("../font/NanumBarunGothicLight.woff") format("woff"),
+        url("../font/NanumBarunGothicLight.ttf") format("truetype");
+}
+@font-face {
+    font-family: NanumBarunG;
+    font-weight: 400;
+    src: url("../font/NanumBarunGothic.eot");
+    src: local("※"),
+        url("../font/NanumBarunGothic.woff") format("woff"),
+        url("../font/NanumBarunGothic.ttf") format("truetype");
+}
+@font-face {
+    font-family: NanumBarunG;
+    font-weight: 700;
+    src: url("../font/NanumBarunGothicBold.eot");
+    src: local("※"),
+        url("../font/NanumBarunGothicBold.woff") format("woff"),
+        url("../font/NanumBarunGothicBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: DINmid;
+    font-weight: 400;
+    src: url("../font/DINMed.eot");
+    src: local("※"),
+        url("../font/DINMed.woff") format("woff"),
+        url("../font/DINMed.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
