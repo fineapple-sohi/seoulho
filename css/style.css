@@ -24,10 +24,6 @@
 .topbanr02 strong {color: #56aebf;}
 
 
-/* quickN */
-#quickN {position: fixed; right: 0; top: 30%; z-index: 900;}
-
-
 /* header */
 #header {position: absolute; top: 120px; left: 0; width: 100%; height: 100px; background: rgba(0,0,0,0.4); z-index: 1000;}
 #header.fixed {position: fixed; top: 0;}
@@ -63,11 +59,17 @@
 .tit_slide .tit01 .txt_area p strong {color: #a2faff;}
 .tit_slide .tit01 .txt_area img {margin: 80px 0 0 300px;}
 
-.tit_slide .tit02 .txt_area {margin-top: 360px;}
+.tit_slide .tit02 .txt_area {margin-top: 360px; font-size: 46px;}
 .tit_slide .tit02 img {margin-top: 40px;}
 
 .tit_slide .swiper-button-prev {left: 60px; background: url(../images/slide_btn.png) no-repeat left top; width: 120px; height: 66px;}
 .tit_slide .swiper-button-next {right: 60px; background: url(../images/slide_btn.png) no-repeat right top; width: 120px; height: 66px;}
+
+.tit_slide.swiper-container-horizontal>.swiper-pagination-bullets {bottom: 50px;}
+.tit_slide .swiper-pagination-bullet {width: 10px; height: 10px; border-radius: 0;}
+.tit_slide .swiper-pagination-bullet-active {background: #93d6e2;}
+
+
 
 
 /* implant */
@@ -87,8 +89,6 @@
 .imple_slide .txt_box p strong {font-weight: 400;}
 .imple_slide .imple01 .txt_box p {margin-top: 86px;}
 .imple_slide .txt_box img {margin-top: 40px;}
-
-.swiper-container-horizontal.imple_slide > .swiper-pagination-bullets {bottom: auto; top: 0;}
 
 .imple_slide.swiper-container {overflow: visible;}
 .imple_slide.swiper-container-horizontal>.swiper-pagination-bullets {top: -20px; left: 50%; transform: translate(-50%,0);}
